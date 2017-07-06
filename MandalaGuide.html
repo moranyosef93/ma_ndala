@@ -1,0 +1,180 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <link rel="icon" href="backgrounds/MandalaTherapy.png">
+    <meta charset="utf-8" />
+    <title>מה-נדלה מדריך למתחילים</title>
+    <meta name="מה-נדלה" content="" />
+    <meta name="מה-נדלה" content="" />
+    <meta name="מורן יוסף יובל ינקו רעות רז" content="" />
+    <meta name="מה-נדלה" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+    <script type="text/javascript">
+
+        var currentIndex = 1;
+        var videoWorking = false;
+
+        setInterval(function () {
+            if (videoWorking) {
+                currentIndex++;
+
+                if (currentIndex == 23) {
+                    currentIndex = 1;
+                }
+
+                $("#Video").attr("src", 'backgrounds/guide/' + currentIndex + '.png');
+            }
+        }, 500);
+
+        function moveFrame(forward) {
+
+            if (forward && currentIndex < 22) {
+                currentIndex++
+            } else {
+                if (currentIndex != 1) {
+                    currentIndex--;
+                }
+            }
+
+            $("#Video").attr("src", 'backgrounds/guide/' + currentIndex + '.png');
+        }
+
+        function togglePlay() {
+            if (videoWorking) {
+                videoWorking = false;
+            } else {
+                videoWorking = true;
+            }
+        }
+
+    </script>
+    <script src="jScripts/NavBar.js"></script>
+
+
+</head>
+<body onload="tab_nav()">
+    <div id="container">
+        <header>
+            <a id="logo" href="HomePage.html">
+                <img id="logo1" src="backgrounds/logo1.png" width="330" height="200" alt="מה נדלה - משמעות הציור ומעבר לו" />
+                <img id="logo3" src="backgrounds/inside.png"/>
+            </a>
+            <nav id="MainNav">
+                <ul>
+                    <li> <a href="HomePage.html"> דף הבית </a> </li>
+                    <li>
+                        <a href="#"> על המנדלה </a>
+                        <ul class="SecondLevel">
+
+                            <li> <a id="NotActive" href="#"> רקע ועקרונות </a> </li>
+                            <li> <a href="MandalaAsTherapy.html"> מנדלה כתרפיה </a> </li>
+                        </ul>
+                    </li>
+                    <li class="active">
+                        <a href="#"> לצייר מנדלה </a>
+                        <ul class="SecondLevel">
+
+                            <li> <a id="NotActive" href="#"> חומרים נדרשים </a> </li>
+                            <li> <a id="NotActive" href="#"> משמעות הצבעים </a> </li>
+                            <li> <a id="NotActive" href="#"> בילוי משותף </a> </li>
+                            <li> <a href="FMandalaGuide.html"> מדריך לציור מנדלה </a> </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"> השראה </a>
+                        <ul class="SecondLevel">
+
+                            <li> <a href="MandalaInsperation.html"> יצירות להדפסה </a> </li>
+                            <li> <a id="NotActive" href="#"> פלייליסט מלווה </a> </li>
+                        </ul>
+                    </li>
+                    <li> <a id="NotActive" href="#"> שאלות ותשובות </a> </li>
+                </ul>
+            </nav>
+        </header>
+        <nav id="MandalaAs1Nav">
+            <ul id="MandalaAs1">
+                <li> <a href="HomePage.html"> דף הבית </a> </li>
+                <li> <a id="NotActive" href="#"> לצייר מנדלה </a> </li>
+                <li> <a href="FMandalaGuide.html"> המדריך לציור מנדלה </a> </li>
+                <li class="orange"><strong>מתחילים</strong></li>
+            </ul>
+        </nav>
+        <section>
+            <h1 class="MndalaGuideH2"> המדריך לציור מנדלה - מתחילים</h1>
+        </section>
+        <section id="instructions">
+            <div style="float:right">
+                <h2 class="instructionh2">
+                    מדריך זה מתאים ללמידה ראשונית ואין צורך בניסיון עבר.
+                </h2>
+                <p id="instruction2">
+                    כמה הסברים לפני שמתחילים:
+                </p>
+                <ol id="instructionsOL">
+                    <li>  ודאו כי יש לכם את <a id="NotActive2" href="#"> כל החומרים הנדרשים</a></li>
+                    <li> עקבו אחר הסרטון שלב אחרי שלב ולמדו כיצד לצייר מנדלה</li>
+                    <li> לצפייה ברצף לחצו על כפתור הפעלה <img alt="הפעל" src="backgrounds/pkay.png" style="width: 35px;height: 30px;"/> <br /> להשהייה לחצו על כפתור השהייה <img alt="השהה" src="backgrounds/pause.png" style="width: 35px;height: 30px;" /></li>
+                    <li> לשליטה בקצב אישי לחצו על החצים קדימה ואחורה <img alt="אחורה" image" src="backgrounds/right.png" style="width:23px;height: 30px;" /> <img alt="קדימה" image" src="backgrounds/left.png" style="width: 23px;height: 30px;" /> </li>
+                </ol>
+            </div>
+            <div class="Video" aria-label="לסרטון זה יש 23 שלבים המסבירים כיצד לצייר מנדלה. בשלב הראשון יש לצייר בעזרת מחוגה עיגול מלא במרכז הדף, בשלב השני יש להוסיף עיגול מסביבו- את קו המיתאר בלבד.. בשלב האחרון יש להוסיף קו מתאר למנדלה ברמה השנייה ותוכלו להתחיל לצבוע. בהצלחה!ד ...">
+                <div style="background-color: #ABD9D6; width: 420px; padding: 10px;">
+                    <img src="backgrounds/guide/1.png" id="Video"/>
+                    <div style="margin: 0px auto;width: 135px;">
+                        <input type="image" src="backgrounds/right.png" alt="אחורה" onclick="moveFrame(false);" style="width: 25px;height: 30px;" />
+                        <input type="image" src="backgrounds/pkay.png" alt="הפעל" onclick="togglePlay();" style="width: 33px;height: 30px;" />
+                        <input type="image" src="backgrounds/pause.png" alt="השהה" onclick="togglePlay();" style="width: 33px;height: 30px;" />
+                        <input type="image" src="backgrounds/left.png" alt="קדימה" onclick="moveFrame(true);" style="width: 25px;height: 30px;" />
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both"></div>
+        </section>
+        <section class="NotActive3">
+            <a id="NotActive3" href="#"> גירסה להדפסה <img image" src="backgrounds/printer.png" style="width:35px;height: 30px;" /> </a>
+        </section>
+        <section>
+            <h3 id="MoreIssues5">
+                מידע נוסף למנדליסט המתחיל
+            </h3>
+            <section id="MoreIssuesNav5">
+                <nav>
+                    <div style="float: right; width: 290px;height: 140px; padding-top: 20px;">
+                        <a id="NotActive" class="background" href="#"> <strong>המדריך לבילוי משותף</strong> </a>
+                        <p id="NotActive">מחפשים בילוי משותף? בואו <br />והכירו את קסם המנדלה <br />ציירו וצבעו בעצמכם</p>
+                    </div>
+                    <div style="float: right; width: 320px;height: 140px; padding-top: 20px;">
+                        <a id="NotActive" class="background" href="#"><strong> חומרים נדרשים</strong> </a>
+                        <p id="NotActive">בעמוד תוכלו למצוא את רשימת  <br />החומרים אותם צריך <br /> להכין לפני תחילת היצירה</p>
+                    </div>
+                    <div style="float: right; width: 320px;height: 140px; padding-top: 20px;">
+                        <a class="background" href="FMandalaGuide.html"><strong>המדריך לציור מנדלה</strong>  </a>
+                        <p>היכנסו למדריך ולימדו איך לצייר <br />מנדלה בקלות ומקצועיות. תוכלו <br />לבחור את רמתכם  <br />ולשלוט בקצב <br />ההתקדמות</p>
+                    </div>
+
+                    <div style="clear:both;"></div>
+
+                </nav>
+            </section>
+        </section>
+        <footer>
+            <nav>
+                <ul>
+                    <li> <a href="AboutUs.html"> אודות  </a> <span style="color: #ffd800">•</span></li>
+                    <li> <a href="ContactUs.html"> צור קשר  </a> <span style="color: #ffd800">•</span></li>
+                    <li> <a href="SiteMap.html"> מפת האתר </a> </li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+</body>
+</html>
+

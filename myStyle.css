@@ -1,0 +1,1074 @@
+@font-face {
+    font-family: 'GveretLevinAlefAlefAlef-Regular';
+    src: url('fonts/GveretLevinAlefAlefAlef-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'GveretLevinAlefAlefAlef-Regular';
+    src: url('fonts/GveretLevinAlefAlefAlef-Regular.ttf') format('truetype');
+}
+body 
+{
+    direction:rtl;
+}
+#container{
+    width:960px;
+    margin:0 auto;
+    background-image:url(../backgrounds/papar_texture_thumb05.jpg);
+    height:auto;
+    margin-top:-25px;
+}
+/*#container1{
+    width:960px;
+    margin:0 auto;
+    background-image:url(../backgrounds/papar_texture_thumb05.jpg);
+    height:auto;
+    margin-top:-25px;
+}*/
+#logo1{
+    margin-top:60px;
+    position: relative;
+}
+#logo2{
+    position:absolute;
+    top:-0px;
+    left: 0px;
+    height: 320px;
+}
+#logo3{
+    position:absolute;
+    bottom:70px;
+    left:0px;
+    height: 300px;
+}
+#NotActive{
+    cursor: not-allowed;
+}
+#NotActive2{
+    cursor: not-allowed;
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+#NotActive2:hover{
+    cursor: not-allowed;
+        text-decoration:none;
+    color:#FF006A;
+    font-weight:bold;
+}
+#NotActive3{
+    cursor: not-allowed;
+    text-decoration:none;
+    color:black;
+    font-size:18px;
+    font-family:Gisha;
+    margin-right:30px;
+    background-color:#FBCB90;
+    border: solid 4px #FEB623;
+    padding: 20px 30px 10px 30px;
+}
+#NotActive3 img{
+    margin-top:5px;
+}
+.NotActive3{
+    margin-top:-80px;
+}
+/*הגדרות header ולוגו*/
+#logo{
+    margin-right:20px;
+    height:110%;
+    width:auto;
+}
+
+header{
+    background-image:url(../backgrounds/watercolor.png);
+    background-size:cover;
+    height:400px;
+    position: relative;
+}
+/*הגדרות תפריט ראשי*/
+#MainNav{
+    background-color:#ABD9D6;
+    position:absolute;
+    width:960px;
+    text-align:center;
+    margin-top:45px;
+}
+#MainNav ul li{
+    display:inline-block;
+    position: relative;
+    height: 100%;
+    line-height: 50px;
+}
+#MainNav ul{
+    padding: 0px;
+    margin: 0px;
+    height: 50px;
+}
+#MainNav ul li a{
+    display:block;
+    width:150px;
+    text-decoration:none;
+    font-family:Gisha;
+    font-size:14pt;
+    color:black;
+
+}
+#MainNav .SecondLevel{
+    display:none;
+    position:absolute;
+    left: 0px;
+    top: 50px;
+    list-style-type: none;
+}
+#MainNav li:hover {
+    background-color: #FEB623;
+}
+#MainNav li.active {
+    background-color: #FEB623;
+}
+#MainNav li:hover .SecondLevel {
+    display:list-item;
+}
+#MainNav li .SecondLevel:hover {
+    display:list-item;
+}
+#MainNav .SecondLevel li{
+    display:list-item;
+    list-style-type: none;
+    text-align: center;
+    background-color:#ABD9D6;
+    line-height: 40px;
+}
+#MainNav .SecondLevel li:hover {
+    background-color: #FEB623;
+}
+#MainNav ul li:hover ul li{
+display:block;
+width:150px;
+}
+#MoreIssues{
+    font-family:Gisha;
+    text-align:center;
+    background-color:#FEB623;
+    width:170px;
+    height:30px;
+    color: black;
+    line-height: 35px;
+    margin-top: 100px;
+    margin-right: 30px;
+    margin-bottom:-45px;
+}
+.nav1{
+    margin-right:40px;
+}
+.navp{
+    margin-right:20px;
+}
+/*התחלת עיצוב עמוד הבית*/
+#Pmandala{
+    margin-top:50px;
+    font-family:GveretLevinAlefAlefAlef-Regular;
+    font-size:18pt;
+    text-align:center;
+    letter-spacing:6px;
+    color:black;
+}
+#karl{
+    margin-top:20px;
+    margin-right:800px;
+    font-family:Gisha;
+    letter-spacing:3px;
+    font-size:14pt;
+    color:black;
+ }
+#MandalaNav .link {
+    color:black;
+    text-decoration:none;
+    font-size:18px;
+}
+#MandalaNav .link:hover {
+    color:#FF006A;
+    text-decoration:none;
+    font-size:18px;
+}
+#MandalaNav {
+    margin-top: 50px;
+    margin-right:45px;
+}
+#MandalaNav li{
+    display:inline-block;
+    width:250px;
+    margin-left:50px;
+    font-family:Gisha;
+    color:black;
+    text-align:unset;
+    text-decoration:none;
+    list-style:none;
+    text-align: center;
+}
+#MandalaNav li {
+    display:inline-block;
+}
+/*.background{
+    margin-right:30px;
+}*/
+.paint div{
+    width: 265px; 
+    height: 150px;
+    background-image: url('../backgrounds/homepageblack.png');
+    background-repeat:no-repeat;
+    background-size:265px;
+    line-height: 35px;
+}
+.paint div:hover{
+    width: 265px; 
+    height: 150px;
+    background-image: url('../backgrounds/homepagecolored.png');
+    background-repeat:no-repeat;
+    background-size:265px;
+    line-height: 35px;
+}
+/*#MoreIssuesNav:hover{
+    background-image:url('../backgrounds/footer1_hover.png');
+    background-size: 1000px; 
+    background-repeat:no-repeat; 
+    background-position: 35px; 
+    margin-top: 40px;
+    height:170px;
+}*/
+#MoreIssuesNav nav {
+    background-image: url(../backgrounds/footer1.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 35px;
+    margin-top: 28px;
+    margin-right:15px;
+    height: 190px;
+}
+#MoreIssuesNav div p{
+    font-family:Gisha;
+    font-size:11pt;
+    margin-top:8px;
+    width:220px;
+}
+/*#MoreIssuesNav div p:hover{
+    font-family:Gisha;
+    color:#FF006A;
+    font-size:11pt;
+    margin-top:8px;
+    width:220px;
+}*/
+#MoreIssuesNav div a{
+    font-family:Gisha;
+    font-size:11pt;
+    text-decoration:none;
+    color:black;
+    margin-right:20px;
+    margin-bottom:3px;
+}
+#MoreIssuesNav div a:hover{
+    font-family:Gisha;
+    font-size:11pt;
+    text-decoration:none;
+    color:#FF006A;
+    margin-right:20px;
+    margin-bottom:3px;
+}
+.p11{
+    margin-right:19px;
+}
+.p12{
+    margin-right:19px;
+}
+/*#position1:hover{
+    background-image:url('../backgrounds/footer1_hover.png');
+    background-position-x:350px;
+    background-position-y: 170px;
+    background-repeat:no-repeat; 
+    background-position: 35px; 
+    margin-top: 40px;
+    height:170px;
+
+}*/
+footer {
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+footer ul{
+    text-align:center;
+}
+footer li{
+    list-style:circle;
+    display:inline;
+    list-style:circle;
+    font-family:Gisha;
+}
+footer a{
+    font-size:16px;
+    color:black;
+    text-decoration:none;
+}
+footer a:hover{
+    font-size:16px;
+    color:#FF006A;
+    text-decoration:none;
+}
+/*סוף עיצוב עמוד הבית*/
+/*התחלת עיצוב עמוד המדריך למנדלה*/
+#MandalaAs1Nav{
+        margin-right:50px;
+        margin-top:-30px;
+}
+#MandalaAs1{
+    margin-right:40px;
+    margin-bottom:50px;
+}
+#MandalaAs1 li{
+    display:inline-block;
+    list-style:none;
+    font-family:Gisha;
+    font-size:14px;
+}
+#MandalaAs1 li:after {
+        content: ">";
+}
+#MandalaAs1 li:last-child:after
+{
+content:"" ;
+}
+#MandalaAs1 a{
+    text-decoration:none;
+    color:black;
+}
+#MandalaAs1{
+    margin-right:-40px;
+    margin-top:-20px;
+    margin-bottom:50px;
+}
+#MandalaAs1 li{
+    display:inline-block;
+    list-style:none;
+    font-family:Gisha;
+    font-size:14px;
+
+}
+#MandalaAs1 li:after {
+        content: ">";
+}
+#MandalaAs1 li:last-child:after
+{
+content:"" ;
+}
+#MandalaAs1 a{
+    text-decoration:none;
+    color:black;
+}
+.MndalaGuideH2{
+    font-family:GveretLevinAlefAlefAlef-Regular;
+    letter-spacing:6px;
+    font-size:28px;
+    color:black;
+    text-align:right;
+    margin-right:40px;
+    margin-bottom:40px;
+}
+.Choose{
+    font-family:Gisha;
+    color:black;
+    text-align:right;
+    font-size:18px;
+    margin-right:80px;
+}
+#MandalaGuideNav{
+    margin-top: 50px;
+    margin-right:45px;
+}
+#MandalaGuideNav li{
+    display:inline-block;
+    width:250px;
+    margin-left:50px;
+    font-family:Gisha;
+    color:black;
+    text-align:unset;
+    text-decoration:none;
+    list-style:none;
+    text-align: center;
+}
+.paint1 div{
+    width: 265px; 
+    height: 150px;
+    background-image: url('../backgrounds/1 black.png');
+    background-repeat:no-repeat;
+    background-size:265px;
+    line-height: 35px;
+}
+.paint2 div{
+    width: 265px; 
+    height: 150px;
+    background-image: url('../backgrounds/2black.png');
+    background-repeat:no-repeat;
+    background-size:265px;
+    line-height: 35px;
+}
+.paint3 div{
+    width: 265px; 
+    height: 150px;
+    background-image: url('../backgrounds/3black.png');
+    background-repeat:no-repeat;
+    background-size:265px;
+    line-height: 35px;
+}
+#MandalaGuideNav .link {
+    color:black;
+    text-decoration:none;
+    font-size:18px;
+    font-family:Gisha;
+}
+#MandalaGuideNav .link:hover {
+    color:#FF006A;
+    text-decoration:none;
+    font-size:18px;
+    font-family:Gisha;
+}
+.paint1 div:hover{
+    width: 265px; 
+    height: 150px;
+    background-image: url('../backgrounds/1colored.png');
+    background-repeat:no-repeat;
+    background-size:265px;
+    line-height: 35px;
+}
+.paint2 div:hover{
+    width: 265px; 
+    height: 150px;
+    background-image: url('../backgrounds/2colored.png');
+    background-repeat:no-repeat;
+    background-size:265px;
+    line-height: 35px;
+}
+.paint3 div:hover{
+    width: 265px; 
+    height: 150px;
+    background-image: url('../backgrounds/3colored.png');
+    background-repeat:no-repeat;
+    background-size:265px;
+    line-height: 35px;
+}
+#MoreIssues2{
+    font-family:Gisha;
+    text-align:center;
+    background-color:#FEB623;
+    width:270px;
+    height:30px;
+    color: black;
+    line-height: 35px;
+    margin-top: 100px;
+    margin-right: 30px;
+}
+#MoreIssuesNav3 div p{
+    font-family:Gisha;
+    font-size:12pt;
+    margin-top:3px;
+    width:210px;
+}
+/*#MoreIssuesNav3 div p:hover{
+    font-family:Gisha;
+    font-size:12pt;
+    margin-top:3px;
+    width:210px;
+    color:#FF006A;
+}*/
+#MoreIssuesNav3 div a{
+    font-family:Gisha;
+    font-size:12pt;
+    text-decoration:none;
+    color:black;
+}
+#MoreIssuesNav3 div a:hover{
+    font-family:Gisha;
+    font-size:12pt;
+    text-decoration:none;
+    color:#FF006A;
+}
+#MoreIssuesNav3{
+    background-image: url(../backgrounds/footer2.png); 
+    background-size: 1000px; 
+    background-repeat:no-repeat; 
+    background-position: 35px; 
+    margin-top:-18px;
+    height: 200px; 
+    margin-right:25px;
+}
+/*#MoreIssuesNav3:hover{
+    background-image:url('../backgrounds/footer2_hover.png');
+    background-size: 1000px; 
+    background-repeat:no-repeat; 
+    background-position: 35px; 
+    margin-top: 60px;
+    height: 170px; 
+}*/
+/*סוף עיצוב עמוד המדריך למנדלה*/
+/*התחלת עיצוב עמוד המדריך למנדלה - מתחילים*/
+.instructionh2{
+    font-family:Gisha;
+    font-size:14pt;
+    color:black;
+    margin-right:17px;
+}
+#instructions{
+    font-family:Gisha;
+    color:black;
+    font-size:14pt;
+    text-align:right;
+    width:940px;
+    margin-right:20px;
+}
+#instruction2{
+    margin-top:15px;
+    margin-right:20px;
+}
+#instructionsOL li{
+    list-style:circle;
+    margin-right:20px;
+    margin-top:20px;
+}
+.Video{
+    float: left;
+    width: 450px;
+}
+.Video img{ 
+    width: 400px; 
+    border: 3px solid black;
+}
+.Video button{
+    background-image:
+}
+#MoreIssues5{
+    font-family:Gisha;
+    text-align:center;
+    background-color:#FEB623;
+    width:250px;
+    height:30px;
+    color: black;
+    line-height: 35px;
+    margin-top: 170px;
+    margin-right: 30px;
+    margin-bottom:-40px;
+}
+#MoreIssuesNav5 div p{
+     font-family:Gisha;
+    font-size:12pt;
+    margin-top:5px;
+    width:210px;
+}
+/*#MoreIssuesNav5 div p:hover{
+     font-family:Gisha;
+    font-size:12pt;
+    margin-top:5px;
+    width:210px;
+    color:#FF006A;
+}*/
+#MoreIssuesNav5 div a{
+    font-family:Gisha;
+    font-size:12pt;
+    text-decoration:none;
+    color:black;
+    margin-top:2px;
+}
+#MoreIssuesNav5 div a:hover{
+    font-family:Gisha;
+    font-size:12pt;
+    text-decoration:none;
+    color:#FF006A;
+        margin-top:2px;
+}
+/*#MoreIssuesNav5:hover{
+    background-image:url('../backgrounds/footer4_hover.png');
+    background-size: 1000px; 
+    background-repeat:no-repeat; 
+    background-position: 35px; 
+    margin-top: 60px;
+    height: 170px; 
+}*/
+#MoreIssuesNav5{
+    background-image: url(../backgrounds/footer4.png); 
+    background-size: 1000px; 
+    background-repeat:no-repeat; 
+    background-position: 35px; 
+    margin-top: 20px;
+    height: 200px;
+    margin-right:20px;
+}
+/*סוף עיצוב עמוד המדריך למנדלה - מתחילים*/
+/*התחלת עיצוב עמוד המדריך מנדלה כתרפיה*/
+#MandalaAs{
+    margin-right:-40px;
+    margin-top:-20px;
+    margin-bottom:50px;
+}
+#MandalaAs li{
+    display:inline-block;
+    list-style:none;
+    font-family:Gisha;
+    font-size:14px;
+
+}
+#MandalaAs li:after {
+        content: ">";
+}
+#MandalaAs li:last-child:after
+{
+content:"" ;
+}
+#MandalaAs a{
+    text-decoration:none;
+    color:black;
+}
+#MandalaAs{
+    margin-right:-40px;
+    margin-top:-20px;
+    margin-bottom:50px;
+}
+#MandalaAs li{
+    display:inline-block;
+    list-style:none;
+    font-family:Gisha;
+    font-size:14px;
+
+}
+#MandalaAs li:after {
+        content: ">";
+}
+#MandalaAs li:last-child:after
+{
+content:"" ;
+}
+#MandalaAs a{
+    text-decoration:none;
+    color:black;
+    text-align:right;
+}
+.MandalaT{
+    font-family:GveretLevinAlefAlefAlef-Regular;
+    letter-spacing:6px;
+    font-size:28px;
+    color:black;
+    text-align:right;
+    margin-right:100px;
+    margin-bottom:30px;
+}
+.MandalaAsP{
+    font-family:Gisha;
+    font-size:16px;
+    text-align:right;
+    width:750px;
+    line-height:25px;
+    letter-spacing:1.5px;
+        margin-right:100px;
+}
+.MandalaAsP1{
+    font-family:Gisha;
+    font-size:18px;
+    text-align:right;
+    width:750px;
+    line-height:25px;
+    letter-spacing:1.5px;
+    margin-right:100px;
+    margin-top:20px;
+}
+.MandalaAsP2{
+    font-family:Gisha;
+    font-size:18px;
+    text-align:right;
+    width:500px;
+    line-height:25px;
+    letter-spacing:1.5px;
+    margin-right:100px;
+    margin-bottom:70px;  
+    margin-top:20px; 
+}
+#TherapyIMG{
+    float:left;
+    margin-top:-430px;
+}
+#MoreIssues4{
+    font-family:Gisha;
+    text-align:center;
+    background-color:#FEB623;
+    width:170px;
+    height:30px;
+    color: black;
+    line-height: 35px;
+    margin-top: 100px;
+    margin-right: 30px;
+    margin-bottom:-40px;
+}
+#MoreIssuesNav4 div p{
+    font-family:Gisha;
+    font-size:12pt;
+    margin-top:3px;
+   width:220px;
+}
+/*#MoreIssuesNav4 div p:hover{
+    font-family:Gisha;
+    font-size:12pt;
+    margin-top:3px;
+   width:220px;
+   color:#FF006A;
+}*/
+#MoreIssuesNav4 div a{
+    font-family:Gisha;
+    font-size:12pt;
+    text-decoration:none;
+    color:black;
+}
+
+#MoreIssuesNav4 div a:hover{
+    font-family:Gisha;
+    font-size:12pt;
+    text-decoration:none;
+    color:#FF006A;
+}
+#MoreIssuesNav4{
+    background-image:url(../backgrounds/footer3.png);
+    background-size: 1000px; 
+    background-repeat:no-repeat; 
+    background-position: 35px; 
+    margin-top: 25px;
+    height: 190px; 
+    margin-right:20px;
+}
+/*#MoreIssuesNav4:hover{
+    background-image:url('../backgrounds/footer3_hover.png');
+    background-size: 1000px; 
+    background-repeat:no-repeat; 
+    background-position: 35px; 
+    margin-top: 60px;
+    height: 170px; 
+
+}*/
+/*סוף עיצוב עמוד המדריך מנדלה כתרפיה*/
+/*התחלת עיצוב עמוד המדריך השראה - יצירות להדפסה*/
+#MandalaAs2{
+    margin-top:-20px;
+    margin-bottom:50px;
+}
+#MandalaAs2 li{
+    display:inline-block;
+    list-style:none;
+    font-family:Gisha;
+    font-size:14px;
+}
+#MandalaAs2 li:after {
+        content: ">";
+}
+#MandalaAs2 li:last-child:after
+{
+content:"" ;
+}
+#MandalaAs2 a{
+    text-decoration:none;
+    color:black;
+}
+#MandalaAs2{
+    margin-right:-40px;
+    margin-top:-20px;
+    margin-bottom:50px;
+}
+#MandalaAs2 li{
+    display:inline-block;
+    list-style:none;
+    font-family:Gisha;
+    font-size:14px;
+}
+#MandalaAs2 li:after {
+        content: ">";
+}
+#MandalaAs2 li:last-child:after
+{
+content:"" ;
+}
+#MandalaAs2 a{
+    text-decoration:none;
+    color:black;
+}
+.gallery{
+    margin-right:63px;
+}
+.gallery li{
+    list-style:none;
+    display:inline-block;
+}
+.gallery li img:hover {
+    -moz-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+.gallery li:hover {
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1;
+    cursor: -webkit-zoom-in;
+    cursor: -moz-zoom-in;
+}
+.gallery li img {
+    backface-visibility: hidden;
+    transition: all .2s ease-in-out;
+}
+.ManImg{
+        vertical-align: bottom;
+        width:200px;
+        height:200px;
+}
+#MoreIssues3{   
+    font-family:Gisha;
+    text-align:center;
+    background-color:#FEB623;
+    width:270px;
+    height:30px;
+    color: black;
+    line-height: 35px;
+    margin-top: 100px;
+    margin-right: 30px;
+}
+#MoreIssuesNav2 div p{
+    font-family:Gisha;
+    font-size:12pt;
+    margin-top:3px;
+   width:220px;
+}
+/*#MoreIssuesNav2 div p:hover{
+    font-family:Gisha;
+    font-size:12pt;
+    margin-top:3px;
+   width:220px;
+    color:#FF006A;
+    margin-bottom:15px;
+}*/
+#MoreIssuesNav2 div a{
+    font-family:Gisha;
+    font-size:12pt;
+    text-decoration:none;
+    color:black;
+}
+#MoreIssuesNav2 div a:hover{
+    font-family:Gisha;
+    font-size:12pt;
+    text-decoration:none;
+    color:#FF006A;
+}
+#MoreIssuesNav2{
+    background-image: url(../backgrounds/footer5.png); 
+    background-size: 1000px; 
+    background-repeat:no-repeat; 
+    background-position: 35px; 
+    margin-top: -15px;
+    margin-right:20px;
+    height:190px;
+}
+/*#MoreIssuesNav2:hover{
+    background-image:url('../backgrounds/footer5_hover.png');
+    background-size: 1000px; 
+    background-repeat:no-repeat; 
+    background-position: 35px; 
+    margin-top: 40px;
+    height: 170px; 
+}*/
+/*סוף עיצוב עמוד המדריך השראה - יצירות להדפסה*/
+/*התחלת עיצוב עמוד צור קשר*/
+form{
+    font-family:Gisha;
+    font-size:14pt;
+    color:black;
+    margin-right:30px;
+}
+form input{
+    margin-top:20px;
+    margin-bottom:10px;
+    border:solid;
+    border-color: #F46F9C;
+    width:270px;
+    height:40px;
+}
+#massege{
+    border:solid;
+    border-color: #F46F9C;
+    width:270px;
+    height:100px;
+}
+#Send{
+    font-family:Gisha;
+    font-size:16pt;
+    height:30px;
+    width:180px;
+    background-color:#ABD9D6;
+    border-color:#ABD9D6;
+    margin-right:20px;
+    margin-bottom:70px;
+}
+/*סוף עיצוב עמוד צור קשר*/
+/*התחלת עיצוב עמוד אודות*/
+#AboutUs{
+    margin-top:10px;
+    margin-right:30px;
+    font-family:GveretLevinAlefAlefAlef-Regular;
+    font-size:22pt;
+    text-align:right;
+    letter-spacing:6px;
+    color:black;
+    margin-bottom:40px;
+}
+#AboutUs1{
+    font-family:GveretLevinAlefAlefAlef-Regular;
+    margin-right:20px;
+    font-size:18pt;
+    letter-spacing:6px;
+    color:black;
+    margin-bottom:40px;
+}
+#AboutUsp{
+    font-family:Gisha;
+    font-size:14pt;
+    line-height:25px;
+    margin-top:15px;
+    margin-right:20px;
+    width:900px;
+    text-align:center;
+}
+#AboutUsp1{
+    font-family:Gisha;
+    font-size:14pt;
+    line-height:25px;
+    margin-top:15px;
+    margin-right:20px;
+    width:900px;
+    text-align:center;
+    margin-top:70px;
+    margin-bottom:40px;
+}
+#AboutUspUl li{
+    font-family:Gisha;
+    font-size:12pt;
+    line-height:20px;
+    margin-top:15px;
+    margin-right:20px;
+    width:900px;    
+    margin-right:150px;
+}
+#us{
+    margin-right:40px;
+    margin-bottom:-30px;
+}
+#HITlink{
+    text-decoration:none;
+    font-family:Gisha;
+    font-size:14pt;
+    margin-right:360px;
+    color:black;
+}
+#HITlink:hover{
+    font-size:18pt;
+}
+#HIT{
+    width:150px;
+    height:90px;
+    margin-right:405px;
+    margin-top:30px;
+}
+/*סוף עיצוב עמוד אודות*/
+/*התחלת עיצוב עמוד מפת האתר*/
+#SiteMapH1{
+    font-family:GveretLevinAlefAlefAlef-Regular;
+    font-size:26pt;
+    letter-spacing:5px;
+    margin-right:60px;
+    margin-bottom:50px;
+}
+#SiteMapH3{
+    margin-bottom:15px;
+}
+#SiteMapH3 a{
+    font-family:Gisha;
+    font-size:14pt;
+    color:black;
+    text-decoration:none;
+    margin-right:20px;
+}
+#SiteMapNav{
+    margin-right:120px;
+    margin-left:30px;
+    margin-bottom:80px;
+
+}
+#SiteMapNav ul {
+    font-family: Gisha;
+    font-size: 14pt;
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+}
+#SiteMapNav ul li a:hover {
+    font-family: Gisha;
+    font-size: 14pt;
+    color:#FEB623;
+    text-decoration: none;
+    margin-right: 20px;
+}
+#SiteMapNav ul li{
+    font-family:Gisha;
+    font-size:14pt;
+    color:black;
+    margin-bottom:15px;
+    text-decoration:none;
+    margin-right:20px;
+    list-style:none;
+}
+#SiteMapNav ul li a{
+    font-family:Gisha;
+    font-size:14pt;
+    color:black;
+    text-decoration:none;
+    margin-right:20px;
+    list-style:none;
+}
+#mandala91{
+    width:600px;
+    height:700px;
+    float:left;
+    margin-top:-180px;
+}
+/*סוף עיצוב עמוד מפת האתר*/
+#HotTopicNav li{
+     display:inline-block;
+    width:280px;
+    font-family:Gisha;
+    color:black;
+    text-align:center;
+    text-decoration:none;
+    list-style:none;
+}
+#HotTopicNav1 li{
+    display:inline-block;
+    width:280px;
+    font-family:Gisha;
+    color:black;
+    text-align:center;
+    text-decoration:none;
+    list-style:none;
+}
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
